@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    font-family: sans-serif;
+}
+
+/* .container {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: red;
+} */
+
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 5, 84);
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+    text-align: center;
+    position: relative;
+}
+
+input {
+    padding: 4px;
+    font-size: 18px;
+    width: 270px;
+    border-radius: 3px;
+    border: none;
+}
+
+button {
+    padding: 7px;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    background-color: rgb(249, 255, 254);
+}
+
+button:active {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.output {
+    background-color: #00f2ea;
+    background-image: url('./tiktok.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+    /* image-rendering: pixelated; */
+    image-resolution: 0%;
+    padding: 10px;
+    font-size: 20px;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 9px 4px rgba(0, 0, 0, 0.4);
+    color: rgb(51, 43, 43);
+    font-weight: bold;
+}
